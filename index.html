@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Just 쇼핑몰</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- 제이쿼리 먼저 -->
+  <script src="script/jquery-1.12.3.js"></script>
+  <!-- 내 스크립트 -->
+  <script src="script/main.js"></script>
+</head>
+<body>
+  <header class="container">
+    <h1>
+      <a href="index.html">
+        <img src="images/logo.png" alt="JUST 쇼핑몰">
+      </a>
+    </h1>
+    <nav id="gnb">
+      <ul class="depth1">
+        <li>
+          <a href="#">탑</a>
+          <ul class="depth2">
+            <li><a href="#">블라우스</a></li>
+            <li><a href="#">티</a></li>
+            <li><a href="#">셔츠</a></li>
+            <li><a href="#">니트</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">아우터</a>
+          <ul class="depth2">
+            <li><a href="#">자켓</a></li>
+            <li><a href="#">코트</a></li>
+            <li><a href="#">가디건</a></li>
+            <li><a href="#">머플러</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">팬츠</a>
+          <ul class="depth2">
+            <li><a href="#">청바지</a></li>
+            <li><a href="#">짧은바지</a></li>
+            <li><a href="#">긴바지</a></li>
+            <li><a href="#">레깅스</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">악세서리</a>
+          <ul class="depth2">
+            <li><a href="#">귀고리</a></li>
+            <li><a href="#">목걸리</a></li>
+            <li><a href="#">반지</a></li>
+            <li><a href="#">팔찌</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div id="main-visual" class="container">
+    <div class="slider">
+      <div class="sliders">
+        <img src="images/main-banner1.jpg" alt="1">
+        <img src="images/main-banner2.jpg" alt="2">
+        <img src="images/main-banner3.jpg" alt="3">
+      </div><!-- sliders -->
+    </div><!-- slider -->
+  </div><!-- main-visual -->
+
+  <section id="main" class="container">
+    <!-- 탭메뉴 영역 -->
+    <div class="col">
+      <div class="tab_buttons">
+        <a href="#notice" class="notice-btn">공지사항</a>
+        <a href="#gallery" class="gallery-btn">갤러리</a>
+      </div>
+      <div class="tab_contents on" id="notice">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="title">공지사항 제목</span>
+              <span class="date">2022-07-22</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="title">공지사항 제목</span>
+              <span class="date">2022-07-22</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="title">공지사항 제목</span>
+              <span class="date">2022-07-22</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="title">공지사항 제목</span>
+              <span class="date">2022-07-22</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="tab_contents gallery" id="gallery">
+        <a href="#"><img src="images/c1-img1.jpg" alt=""></a>
+        <a href="#"><img src="images/c1-img1.jpg" alt=""></a>
+        <a href="#"><img src="images/c1-img1.jpg" alt=""></a>
+      </div>
+    </div>
+    <!-- 배너c.3 -->
+    <div class="col banner1">
+      <img src="./images/banner-c3.jpg" alt="Dress 1+1 보러가기">
+    </div>
+    <!-- 바로가기 배너 c.4 -->
+    <div class="colbanner2">
+      <img src="./images/banner-c4.jpg" alt="모바일앱 설치시 무료배송 쿠폰을 드립니다! 앱 설치 바로가기">
+    </div>
+  </section>
+
+  <footer class="container">
+    <div class="footer-logo">
+      <img src="./images/logo-footer.png" alt="JUST 쇼핑몰">
+    </div>
+    <p class="copy">Copyright Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="sns">SNS</p>
+  </footer>
+
+  <div class="modal">
+    <h2>타이틀</h2>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tempore distinctio blanditiis libero temporibus adipisci, fugit quidem, ullam deserunt cupiditate asperiores inventore esse mollitia nisi cum laudantium autem repellat tenetur.</p>
+    <button class="close-btn">X 닫기</button>
+  </div>
+</body>
+</html>
